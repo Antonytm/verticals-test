@@ -1,0 +1,72 @@
+---
+import { CdpService } from "@/lib/cdp-service";
+import config from "../temp/config";
+
+const cdpService = new CdpService();
+const sendData = cdpService.isNormalMode();
+
+/**
+ * The Bootstrap component is the entry point for performing any initialization logic
+ * that needs to happen early in the application's lifecycle.
+ */
+---
+
+<astro-bootstrap
+  data-send={+sendData}
+  data-site-name={Astro.locals.site}
+  data-sitecore-edge-context-id={config.sitecoreEdgeContextId}
+  data-sitecore-edge-url={config.sitecoreEdgeUrl}
+>
+</astro-bootstrap>
+
+<script>
+  //******************************************************//
+  //***************Cloud SDK initialization***************//
+  //******************************************************//
+  import { CloudSDK } from "@sitecore-cloudsdk/core/browser";
+  import "@sitecore-cloudsdk/events/browser";
+
+  class Bootstrap extends HTMLElement {
+    connectedCallback() {
+      const dataSend =
+        this.dataset.send !== undefined ? +this.dataset.send : 0;
+        
+      const sitecoreEdgeContextId = this.dataset.sitecoreEdgeContextId || "";
+          
+      if (!dataSend || !sitecoreEdgeContextId || sitecoreEdgeContextId == 'undefined') return;
+
+      const sitecoreEdgeUrl = this.dataset.sitecoreEdgeUrl || "";
+      const siteName = this.dataset.siteName || "";
+
+      CloudSDK({
+        sitecoreEdgeUrl,
+        sitecoreEdgeContextId,
+        siteName,
+        enableBrowserCookie: true,
+        // Replace with the top level cookie domain of the website that is being integrated e.g ".example.com" and not "www.example.com"
+        cookieDomain: window.location.hostname.replace(/^www\./, ""),
+      })
+      .addEvents()
+      .initialize();
+    }
+  }
+
+  customElements.define("astro-bootstrap", Bootstrap);
+
+  //******************************************************//
+  //****************Paralax initialization****************//
+  //******************************************************//
+  import { ParallaxElementOptions, useParallax } from "lib/useParallax";
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const dottedAccents = document.querySelectorAll(".dotted-accent-wrapper");
+
+    const options: ParallaxElementOptions = {
+        translateY: { from: 80, to: -80, units: "px" },
+    }
+
+    dottedAccents.forEach((dottedAccent) => {
+      useParallax(dottedAccent, options);
+    });
+  });
+</script>

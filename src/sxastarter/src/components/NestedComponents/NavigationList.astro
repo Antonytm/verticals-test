@@ -1,0 +1,105 @@
+---
+import {
+  Link,
+  LinkField,
+  Text,
+  SitecoreContextMap,
+} from "@astro-sitecore-jss/astro-sitecore-jss";
+import { Fields, NavigationProps } from "components/Navigation.astro";
+
+const getLinkField = (props: NavigationProps): LinkField => ({
+  value: {
+    href: props.fields.Href,
+    title: getLinkTitle(props),
+    querystring: props.fields.Querystring,
+  },
+});
+
+const getLinkTitle = (props: NavigationProps): string | undefined => {
+  let title;
+  if (props.fields.NavigationTitle?.value) {
+    title = props.fields.NavigationTitle.value.toString();
+  } else if (props.fields.Title?.value) {
+    title = props.fields.Title.value.toString();
+  } else {
+    title = props.fields.DisplayName;
+  }
+
+  return title;
+};
+
+const props: NavigationProps = {
+  fields: Astro.props.fields,
+  relativeLevel: Astro.props.relativeLevel,
+};
+
+const sitecoreContext = SitecoreContextMap.get()["scContext"];
+const isPageEditing = sitecoreContext.pageEditing;
+
+const classNameList = `${props.fields.Styles.concat("rel-level" + props.relativeLevel).join(" ")}`;
+const childrenLength = props.fields.Children && props.fields.Children.length;
+
+const linkField = getLinkField(props);
+---
+
+<li class={`${classNameList}`} key={props.fields.Id} tabIndex={0}>
+  <div class={`navigation-title ${childrenLength ? "child" : ""}`}>
+    <Link
+      class="menu-link"
+      field={linkField}
+      editable={sitecoreContext.isPageEditing}
+      data-isPageEditing={isPageEditing}
+    >
+      {
+        (
+          <>
+            {(props.fields.NavigationTitle || props.fields.Title) && (
+              <Text
+                field={props.fields.NavigationTitle || props.fields.Title}
+              />
+            )}
+            {!props.fields.NavigationTitle &&
+              !props.fields.Title &&
+              props.fields.DisplayName}
+          </>
+        )
+      }
+    </Link>
+  </div>
+  {
+    childrenLength > 0 ? (
+      <ul class="clearfix">
+        {props.fields.Children.map((element: Fields, index: number) => (
+          <Astro.self
+            key={`${index}${element.Id}`}
+            fields={element}
+            relativeLevel={props.relativeLevel + 1}
+          />
+        ))}
+      </ul>
+    ) : null
+  }
+</li>
+
+<script>
+  import { handleToggleMenu } from 'components/scripts/Menu';
+
+  function setActive(event: any) {
+    const currentTarget = event.currentTarget as Element;
+
+    const link = currentTarget.closest("li") as Element;
+    link.classList.toggle("active");
+  }
+
+  const navigationLinks = document.querySelectorAll(".navigation-title");
+  navigationLinks.forEach((el) => {
+    el.addEventListener("click", setActive);
+  });
+
+  const menuLinks = document.querySelectorAll("menu-link");
+  menuLinks?.forEach((el) =>
+    el.addEventListener("click", (event) => {
+      handleToggleMenu(event, false);
+    }),
+  );
+</script>

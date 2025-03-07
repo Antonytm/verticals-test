@@ -1,0 +1,41 @@
+---
+import { 
+  Field,
+  ImageField,
+  RichTextField,
+} from '@astro-sitecore-jss/astro-sitecore-jss';
+import { ComponentParams, ComponentRendering } from "@sitecore-jss/sitecore-jss/layout";
+import AuthorListDefault from 'components/Variants/AuthorListVariants/AuthorListDefault.astro';
+import AuthorListSlider from 'components/Variants/AuthorListVariants/AuthorListSlider.astro';
+import AuthorListSimple from 'components/Variants/AuthorListVariants/AuthorListSimple.astro';
+
+interface Fields {
+  Name: Field<string>;
+  Photo: ImageField;
+  Bio: RichTextField;
+  Position: Field<string>;
+}
+
+export type AuthorListItemProps = {
+  fields: Fields;
+  name: string;
+  url: string;
+};
+
+export interface AuthorListComponentProps {
+  rendering: ComponentRendering & { params: ComponentParams };
+  params: ComponentParams;
+  fields: {
+    items: AuthorListItemProps[];
+  };
+}
+
+const props: AuthorListComponentProps = Astro.props.route;
+const id = props.params.RenderingIdentifier;
+const variantName = props.params.FieldNames ?? 'Default';
+---
+<>
+  {variantName === 'Default' && <AuthorListDefault id={id} route={props} />}
+  {variantName === 'Slider' && <AuthorListSlider id={id} route={props} />}
+  {variantName === 'Simple' && <AuthorListSimple id={id} route={props} />}
+</>
