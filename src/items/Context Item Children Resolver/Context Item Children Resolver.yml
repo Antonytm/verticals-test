@@ -16,6 +16,9 @@ SharedFields:
 Languages:
 - Language: da
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "6a808dfe-a858-4640-995c-054c6ba9c7e2"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Resolver for underordnede kontekstelementer
@@ -24,9 +27,12 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "33119c99-05b8-418a-9aed-652760b415d8"
+      Value: "4e5ea651-083a-4948-a9eb-b854eaca1041"
 - Language: "de-DE"
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "6a808dfe-a858-4640-995c-054c6ba9c7e2"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Kontext Element Kinder Resolver
@@ -35,7 +41,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "33119c99-05b8-418a-9aed-652760b415d8"
+      Value: "4e5ea651-083a-4948-a9eb-b854eaca1041"
 - Language: en
   Versions:
   - Version: 1
@@ -45,6 +51,9 @@ Languages:
       Value: "64d7e943-a315-4fcc-952a-39cc4cd5fef8"
 - Language: "ja-JP"
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "6a808dfe-a858-4640-995c-054c6ba9c7e2"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: コンテキスト アイテム子リゾルバー
@@ -53,9 +62,12 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "33119c99-05b8-418a-9aed-652760b415d8"
+      Value: "4e5ea651-083a-4948-a9eb-b854eaca1041"
 - Language: "zh-CN"
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "6a808dfe-a858-4640-995c-054c6ba9c7e2"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: 上下文项目儿童解析器
@@ -64,4 +76,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "33119c99-05b8-418a-9aed-652760b415d8"
+      Value: "4e5ea651-083a-4948-a9eb-b854eaca1041"
