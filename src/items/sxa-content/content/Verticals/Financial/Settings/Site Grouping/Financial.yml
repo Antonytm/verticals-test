@@ -24,7 +24,7 @@ SharedFields:
   Value: 1
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: "personalizationsastro-opnujs8lu02jsqbchycd2a-financial.vercel.app"
+  Value: "astro-default-az3m7qyiuaujprhsopva-financial.vercel.app"
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
   Value: "en=play-finance&fr=play-finance"
@@ -36,7 +36,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5f641207-6c42-4656-8a72-092b89eb00c5"
+  Value: "c094b508-894a-4d46-a894-d3e624d84863"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: Default
@@ -50,7 +50,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4350263a-c9bc-4e70-a33f-950c06682257"
+      Value: "12dbcc53-93a6-4bf1-bf3c-777d7ad0aa43"
     - ID: "96cffc48-0bd5-4f70-9b36-d49c844d51ef"
       Hint: Theme
       Value: Financial
