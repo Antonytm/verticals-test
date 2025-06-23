@@ -1,0 +1,29 @@
+﻿---
+ID: "468fee1b-336f-4a2c-8c50-a471fedaabb1"
+Parent: "64c4f646-a3fa-4205-b98e-4de2c609b60f"
+Template: "f68f13a6-3395-426a-b9a1-fa2dc60d94eb"
+Path: "/sitecore/system/Languages/it-IT"
+SharedFields:
+- ID: "0620f810-9294-4f14-af9f-f5772efca0b2"
+  Hint: Regional Iso Code
+  Value: "it-IT"
+- ID: "49e5e8f3-ed4a-4a06-abe1-b9408951dee9"
+  Hint: Charset
+  Value: "utf-8"
+- ID: "8728d8ff-66d9-40c2-8b34-c4fc1466942e"
+  Hint: Encoding
+  Value: "utf-8"
+- ID: "990596ce-0024-43f3-bf4c-a991bfa69b45"
+  Hint: Code page
+  Value: 65001
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8389b9d9-350a-4b71-a36c-e9e51e5da835"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0031dd8b-4e11-4b6e-bf71-a37c04599630"
