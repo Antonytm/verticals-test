@@ -18,7 +18,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "48016d05-c906-4bff-9e9d-abe53f4b3aed"
+    Value: "b4c35c05-c387-4ce6-bf94-276e938a98cb"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Resolver for underordnede kontekstelementer
@@ -27,12 +27,12 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7e9a5a83-20d6-46ab-b08d-c267111c881e"
+      Value: "3c2e1db0-e9cd-4f31-b06d-8985d9284ea6"
 - Language: "de-DE"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "48016d05-c906-4bff-9e9d-abe53f4b3aed"
+    Value: "b4c35c05-c387-4ce6-bf94-276e938a98cb"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: Kontext Element Kinder Resolver
@@ -41,7 +41,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7e9a5a83-20d6-46ab-b08d-c267111c881e"
+      Value: "3c2e1db0-e9cd-4f31-b06d-8985d9284ea6"
 - Language: en
   Versions:
   - Version: 1
@@ -53,7 +53,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "48016d05-c906-4bff-9e9d-abe53f4b3aed"
+    Value: "b4c35c05-c387-4ce6-bf94-276e938a98cb"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: コンテキスト アイテム子リゾルバー
@@ -62,12 +62,12 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7e9a5a83-20d6-46ab-b08d-c267111c881e"
+      Value: "3c2e1db0-e9cd-4f31-b06d-8985d9284ea6"
 - Language: "zh-CN"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "48016d05-c906-4bff-9e9d-abe53f4b3aed"
+    Value: "b4c35c05-c387-4ce6-bf94-276e938a98cb"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
     Value: 上下文项目儿童解析器
@@ -76,4 +76,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7e9a5a83-20d6-46ab-b08d-c267111c881e"
+      Value: "3c2e1db0-e9cd-4f31-b06d-8985d9284ea6"
