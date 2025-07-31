@@ -15,7 +15,7 @@ SharedFields:
   Value: Basic
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: "astro-default-az3m7qyiuaujprhsopva-basic.vercel.app"
+  Value: "verticals-0731-f526md012u2iuljr8eanw-basic.vercel.app"
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Basic
@@ -24,7 +24,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "75d8a9ae-bf2f-4fae-9034-f3703fddc2f8"
+  Value: "695bbd9b-e381-4077-8f5e-a10d06d273fe"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: Default
@@ -38,4 +38,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fdef0c7b-c91c-4fbe-9cea-12b7b439daf6"
+      Value: "1f8d4ab0-9afb-46d5-8d1b-d2dfb70091b0"
