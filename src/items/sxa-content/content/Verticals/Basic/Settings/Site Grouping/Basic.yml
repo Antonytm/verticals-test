@@ -15,7 +15,7 @@ SharedFields:
   Value: Basic
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: "verticals-20250803-eskdmjj6a0wi3x74azyo5q-basic.vercel.app"
+  Value: "vertical-20250840-uxrouxg830ealuiutwsrq-basic.vercel.app"
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Basic
@@ -24,7 +24,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "2bd5dcce-b005-4d33-907d-69f7f83884d4"
+  Value: "8d3cc64f-c755-4485-89cc-37ca02033e37"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: Default
@@ -38,4 +38,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "dcd8929f-000f-4f27-a9d1-fb26d32c4652"
+      Value: "66d977ce-e630-429f-9b79-a764f4794f0d"
