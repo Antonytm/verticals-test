@@ -9,22 +9,22 @@ SharedFields:
   Value: Default
 - ID: "94470b31-e282-4d8d-bc54-85689efb294c"
   Hint: ServerSideRenderingEngineConfigUrl
-  Value: "https://xmc-eh-1rbo6ls1142ho30a5kgof7.sitecorecloud.io:443/api/editing/config"
+  Value: "https://xmc-eh-1moir2oqzlqss2xekc8drv.sitecorecloud.io:443/api/editing/config"
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
   Value: 1
 - ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
   Hint: ServerSideRenderingEngineApplicationUrl
-  Value: "https://xmc-eh-1rbo6ls1142ho30a5kgof7.sitecorecloud.io/"
+  Value: "https://xmc-eh-1moir2oqzlqss2xekc8drv.sitecorecloud.io/"
 - ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
   Hint: ServerSideRenderingEngineEndpointUrl
-  Value: "https://xmc-eh-1rbo6ls1142ho30a5kgof7.sitecorecloud.io:443/api/editing/render"
+  Value: "https://xmc-eh-1moir2oqzlqss2xekc8drv.sitecorecloud.io:443/api/editing/render"
 Languages:
 - Language: "de-DE"
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "929739b0-e74c-47b1-a8c2-75c06ccd4ef8"
+    Value: "58ebacb8-9cc0-41e7-9b43-0735c652477c"
   Versions:
   - Version: 1
     Fields:
@@ -42,7 +42,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "929739b0-e74c-47b1-a8c2-75c06ccd4ef8"
+    Value: "58ebacb8-9cc0-41e7-9b43-0735c652477c"
   Versions:
   - Version: 1
     Fields:
@@ -53,7 +53,7 @@ Languages:
   Fields:
   - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
     Hint: __Unversioned revision
-    Value: "929739b0-e74c-47b1-a8c2-75c06ccd4ef8"
+    Value: "58ebacb8-9cc0-41e7-9b43-0735c652477c"
   Versions:
   - Version: 1
     Fields:
