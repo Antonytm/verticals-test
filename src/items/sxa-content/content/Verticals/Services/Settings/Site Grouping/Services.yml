@@ -15,7 +15,7 @@ SharedFields:
   Value: Services
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: "verticals-20250807-cofkre3fremfulh4lw6uzq-services.vercel.app"
+  Value: "verticals-20250809-f4lxtiejzuq7jgeyvqzfw-services.vercel.app"
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Services
@@ -24,7 +24,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "acfe6a6b-2356-4623-b76f-728934fd9afa"
+  Value: "17131fec-bbea-457a-a900-0c46ecc57af6"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: Default
@@ -38,7 +38,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "43f5a8fc-ab0a-44b6-9ec2-a5fcf62ac5d3"
+      Value: "1b46c22d-1e8e-4c25-aa74-dd10ee1eacea"
     - ID: "96cffc48-0bd5-4f70-9b36-d49c844d51ef"
       Hint: Theme
       Value: Services
